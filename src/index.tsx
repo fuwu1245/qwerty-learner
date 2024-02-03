@@ -16,7 +16,7 @@ const GalleryPage = lazy(() => import('./pages/Gallery-N'))
 
 if (process.env.NODE_ENV === 'production') {
   // for prod
-  mixpanel.init('bdc492847e9340eeebd53cc35f321691')
+  mixpanel.init('c25072c4a155e393fef05ce00e0b2e8e')
 } else {
   // for dev
   mixpanel.init('5474177127e4767124c123b2d7846e2a', { debug: true })
